@@ -22,9 +22,10 @@ When started, the program will give you the address of the API server, along wit
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 ### Sending an API Request
-Go to the address provided in your browser to see the API endpoint. This is documented using Swagger, and provides a link, labelled "default" that takes you to the documentation and also provides a "try it out" button. This last will let you set the request from the browser. Alternatively, you can use other tools such as [curl](https://curl.haxx.se/) or [Insomnia](https://insomnia.rest/) for direct testing.
+Go to the address provided in your browser to see the API endpoint. This is documented using Swagger, and provides a link, labelled "default" that takes you to the documentation and also provides a "try it out" button. This last will let you set the request from the browser. Alternatively, you can use other tools such as [curl](https://curl.haxx.se/) or [Insomnia](https://insomnia.rest/) for direct testing. You will have to manually edit the JSON of the POST request to use this.
 
 If you click the "try it out" button, you will have to select a collection of classifiers (either "full_text" or "abstracts") and then paste some text to be classified into the textbox labeled: "Enter Text Here." Then hit the execute button to get the classifications.
+
 ### Results
 The results will be returned as a list of JSON objects that looks similar to this:
 ```json
