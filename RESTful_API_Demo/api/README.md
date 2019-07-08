@@ -9,4 +9,6 @@ Specifically, these classifiers were built using the data sets from the Riedel <
 
 All of the current implementation is done in the Python language using standard libraries including Numpy, Scikit-Learn, and Pandas. Two sets of classifiers are available on this server. One is based on a full-text analysis of the papers used as training data, while the other is based on the text of abstracts of the papers. The implementations here were developed by the team at GSU, using the **full** data set, without holding out any data for testing. (Therefore the performance and results of classification will not be identical with the paper's results.)
 
+_This research was funded by a grant from the National Science Foundation (NSF; USA) to Drs. J. Turner and A. Laird, grant number 1631325._
+
 ###### Matthew D. Turner<br>Georgia State University <br> 2019.07.03

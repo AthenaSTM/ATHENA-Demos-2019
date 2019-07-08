@@ -53,8 +53,10 @@ The results will be returned as a list of JSON objects that looks similar to thi
   }
 ]
 ```
-The label predictions are coded as `0` for not applicable and `1` for applicable. 
+The label predictions are coded as `0` for not applicable and `1` for applicable.
 
 Please note that this classifier is based on a limited training set as it was part of a research project to develop a classification mechanism, not to build a production level classifier. The server is built using the Python libraries Flask and Flask-Restplus.
+
+_This research was funded by a grant from the National Science Foundation (NSF; USA) to Drs. J. Turner and A. Laird, grant number 1631325._
 
 ###### Matthew D. Turner<br>Georgia State University <br> 2019.07.03

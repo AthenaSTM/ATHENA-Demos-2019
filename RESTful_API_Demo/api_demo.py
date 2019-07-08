@@ -21,9 +21,12 @@
 # connect to this API, this can be easily handled with any standard JSON
 # formatting library.
 #
+# This research was funded by a grant from the National Science Foundation
+# (NSF; USA) to Drs. J. Turner and A. Laird, grant number 1631325.
+#
 # Matthew D. Turner
 # Version 1.0.0
-# 2019.07.07 (rev. 5)
+# 2019.07.08
 
 # Imports for the server component
 from flask import Flask
