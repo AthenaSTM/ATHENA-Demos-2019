@@ -8,7 +8,7 @@ Flask == 1.0.2
 flask_restplus == 0.12.1
 
 # api_demo.py: 39
-numpy == 1.15.4
+numpy == 1.22.0
 
 # api_demo.py: 37
 pandas == 0.23.4
